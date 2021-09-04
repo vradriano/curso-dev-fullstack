@@ -1,0 +1,3 @@
+Toda estilização CSS, quando a mesma for CLASS, sempre utilizar . antes; exemplo: class vitor123- quando for estilizar, sempre usar .vitor123-
+
+Toda estilização CSS, quando a mesma for ID, sempre utilizar # / jOGO DA VELHA no CSS3, por exemplo: Vitor123- , no CSS sempre utilizar #vitor123-
