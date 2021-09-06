@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    margin: 0px 200px;
+}
+
+header {
+    background-color: chocolate;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px
+}
+
+::selection {
+    color: darkblue;
+    background-color: black;
+}
+
+P::first-line {
+    color: blue;
+}
+
+p::first-letter {
+    color: crimson;
+    font-size: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+h1::before {
+    background-size: cover;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjn_aonYCCV4xsR8wO5pXFoiDBZsT8FDisww&usqp=CAU);
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+    content: "";      
+}
+
+h1::after {
+    background-size: cover;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjn_aonYCCV4xsR8wO5pXFoiDBZsT8FDisww&usqp=CAU);
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+    content: "";      
+}

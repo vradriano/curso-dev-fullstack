@@ -1,0 +1,20 @@
+h1 {
+    text-shadow: 4px 0px 2px #a13ace;
+}
+
+p {
+    font-size: 30px;
+    color: blue;
+    text-align: justify;
+    font-weight: bold;
+    font-style: italic;
+    /* font-variant: small-caps */
+    text-transform: lowercase;
+    text-indent: 20px;
+    word-spacing: 20px;
+    line-height: 50px;
+}
+
+a {
+    text-decoration: none   ;
+}

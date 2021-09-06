@@ -1,0 +1,14 @@
+ul {
+    background-color: aqua;
+    padding: 20px;
+    text-decoration: none;
+}
+
+ul li {
+    display: inline;
+    margin: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+}

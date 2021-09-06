@@ -1,0 +1,71 @@
+a {
+    color: chartreuse;
+}
+
+a:hover {
+    color: green;
+    font-weight: bold;
+}
+
+a:visited {
+    text-align: center;
+}
+
+a:active {
+    color: darkgoldenrod;
+}
+
+a:hover + .caixa {
+    display: block;
+}
+
+.caixa {
+    width: 150px;
+    height: 150px;
+    background: black;
+    display: none;
+
+}
+
+.caixa:hover {
+    background: cadetblue;
+    box-shadow: 2px 2px 5px chartreuse;
+    width: 20px;
+}
+
+ul {
+    text-decoration: none;
+}
+
+ul li:first-child {
+    color: blueviolet;
+}
+
+ul:hover li:first-child {
+    color: chocolate;
+    background-image: url(https://image.shutterstock.com/image-vector/minimalist-simple-modern-ocean-sun-260nw-1892993923.jpg);
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+ul:hover  li:last-child {
+    color: crimson;
+    box-shadow: 5px 30px 50px bisque;
+}
+
+.caixa2 h1 {
+    color: blue;
+}
+
+.caixa2 p:first-child {
+    color: darkslateblue;
+}
+
+.caixa2 p:last-child {
+    color: darkorchid;
+}
+
+.caixa2 p:nth-child(3) {
+    color: deeppink;
+}
