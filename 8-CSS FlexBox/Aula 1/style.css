@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+ /* flex-wrap: wrap; < Quebrar página
+    flex-wrap: nowrap; < Padrão, não quebra página.
+    flex-wrap: wrap-reverse < Quebra de maneira invertida, o último para o 1. 
+    flex-flow: row wrap-reverse / shorthand flow-direction + flex-wrap. */
+    background-color: silver;
+}
+
+.caixa {
+    width: 50px;
+    height: 50px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}

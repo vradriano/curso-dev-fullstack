@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+
+ /* Justify Content: flex-start < Padrão, da esquerda à direita.
+    Justify Content: flex-end < Joga tudo para o canto direito, de forma alinhada 
+    corretamente.
+    Justify Content: center; < Centraliza.
+    Justify Content: space-between; < Espaço entre eles. para ocupar o container todo.
+    Justify Content: space-around; < espaço em volta deles. */
+
+    background-color: silver;
+
+    height: 2000px;
+}
+
+.caixa {
+    width: 100px;
+    height: 100px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
